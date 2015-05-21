@@ -1,0 +1,70 @@
+/*All editing for the entire page*/
+body{
+    background-color: #fff;
+    background-position:center;
+}
+    /*All editing done inside the body of the page*/
+    #wrapper{
+        width: 80%;
+        height: 100%;
+        margin: 5px auto;
+        padding: 10px;
+        background-color: #808080;
+        border: 5px 5px #000;
+        border-radius: 15px;
+        text-align: left;
+        opacity: .8;
+    }
+    	header{
+    	
+    	}
+    	nav{
+    		display: block;
+    	}
+    	/*Text declarations*/
+    	h1, h2, h3{
+        	padding: 0 5px;
+        	color: #000;
+        	font-family: "lato", arial, sans-serif;
+    	}
+    	h1{
+    		font-size: 30px;
+    		text-shadow: 2px 2px #ffffff;
+    		color: #808080;
+    		box-shadow: 10px 10px 5px #000;
+    		width: 160px;
+    	}
+    	h2{
+    		font-size: 25px;
+    	}
+    	h3{
+    		font-size: 20px;
+    	}
+    	p h1{
+        	margin: 5px auto;
+        	padding: 10px;
+        	color: #000;
+        	font-family: arial, sans-serif;
+        	font-weight: normal;
+        	font-size: 16px;
+    		font-weight: bold;
+    	}
+    	ol{
+    		list-style-type: lower-roman;
+    	}
+    	/*All editing done to links*/
+		ul{
+    		font-style: italic;
+    	}
+    	a:link {
+    	    color: #208c9a;
+    	}
+    	a:visited {
+    	    color: #000;
+    	}
+    	a:hover {
+    	    color: #7AACE7;
+    	}
+    	a:active {
+    	    color: #7EFAA7;
+    	}
