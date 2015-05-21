@@ -7,7 +7,7 @@ body{
     #wrapper{
         width: 80%;
         height: 100%;
-        margin: 5px auto 5px auto;
+        margin: 5px auto;
         padding: 10px;
         background-color: #808080;
         border: 5px 5px #000;
@@ -19,14 +19,13 @@ body{
     	
     	}
     	nav{
-    		display: inline;
+    		display: block;
     	}
     	/*Text declarations*/
     	h1, h2, h3{
-        	padding: 0 5px 0 5px;
+        	padding: 0 5px;
         	color: #000;
-        	font-family: arial, sans-serif;
-        	font-weight: bold;
+        	font-family: "lato", arial, sans-serif;
     	}
     	h1{
     		font-size: 30px;
@@ -41,13 +40,14 @@ body{
     	h3{
     		font-size: 20px;
     	}
-    	p {
-        	margin: 5px auto 5px auto;
+    	p h1{
+        	margin: 5px auto;
         	padding: 10px;
         	color: #000;
         	font-family: arial, sans-serif;
         	font-weight: normal;
         	font-size: 16px;
+    		font-weight: bold;
     	}
     	ol{
     		list-style-type: lower-roman;
