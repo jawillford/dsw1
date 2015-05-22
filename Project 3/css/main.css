@@ -1,52 +1,60 @@
 /*All editing for the entire page*/
 body{
     background-color: #fff;
+    background-image: url("../Images/bgpattern.png");
+    background-repeat: repeat;
     background-position:center;
 }
     /*All editing done inside the body of the page*/
     #wrapper{
         width: 80%;
         height: 100%;
-        margin: 5px auto;
-        padding: 10px;
+        margin: .5em auto;
+        padding: 1em;
         background-color: #808080;
-        border: 5px 5px #000;
-        border-radius: 15px;
+        border: .5em .5em #000;
+        border-radius: 1.5em;
         text-align: left;
         opacity: .8;
+        overflow: hidden;
     }
+    	#content{
+    		float: left;
+    		width: 60%;
+    	}
     	header{
-    	
+        	width: 100%;
+        	border: .1em dashed #000;
     	}
     	nav{
     		display: block;
     	}
     	/*Text declarations*/
     	h1, h2, h3{
-        	padding: 0 5px;
+        	padding: 0 .5em;
         	color: #000;
         	font-family: "lato", arial, sans-serif;
     	}
     	h1{
-    		font-size: 30px;
-    		text-shadow: 2px 2px #ffffff;
+    		font-size: 3em;
+    		text-shadow: .05em .05em #ffffff;
     		color: #808080;
-    		box-shadow: 10px 10px 5px #000;
-    		width: 160px;
+    		box-shadow: .3em .3em .5em #000;
+    		width: 5em;
     	}
     	h2{
-    		font-size: 25px;
+    		font-size: 2.5em;
     	}
     	h3{
-    		font-size: 20px;
+    		font-size: 2em;
     	}
     	p h1{
-        	margin: 5px auto;
-        	padding: 10px;
+        	margin: .5em auto;
+        	padding: 1em;
         	color: #000;
         	font-family: arial, sans-serif;
         	font-weight: normal;
-        	font-size: 16px;
+        	font-size: 1.6em;
     		font-weight: bold;
     	}
     	ol{
@@ -55,6 +63,13 @@ body{
     	/*All editing done to links*/
 		ul{
     		font-style: italic;
+    	}
+    	aside{
+    		float: right;
+    		width: 30%;
+    	}
+    	footer{
+    		clear: left;
     	}
     	a:link {
     	    color: #208c9a;
