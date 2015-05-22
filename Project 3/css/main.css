@@ -1,7 +1,7 @@
 /*All editing for the entire page*/
 body{
     background-color: #fff;
-    background-image: url("../Images/bgpattern.png");
+    background-image: url("../Images/xv.png");
     background-repeat: repeat;
     background-position:center;
 }
@@ -25,6 +25,9 @@ body{
     	header{
         	width: 100%;
         	border: .1em dashed #000;
+        	background-image: url("../Images/pizzabg.jpg");
+    		background-repeat: no-repeat;
+    		background-position: top right;
     	}
     	nav{
     		display: block;
@@ -48,13 +51,15 @@ body{
     	h3{
     		font-size: 2em;
     	}
-    	p h1{
+    	p{
         	margin: .5em auto;
         	padding: 1em;
         	color: #000;
         	font-family: arial, sans-serif;
         	font-weight: normal;
-        	font-size: 1.6em;
+        	font-size: 1.25em;
+    	}
+    	#hp{
     		font-weight: bold;
     	}
     	ol{
@@ -67,6 +72,9 @@ body{
     	aside{
     		float: right;
     		width: 30%;
+    		height: 100%;
+    		background: linear-gradient(#f5f5f5, #808080);
+    		
     	}
     	footer{
     		clear: left;
