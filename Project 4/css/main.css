@@ -1,0 +1,210 @@
+/*All editing for the entire page*/
+body{
+    background-color: #fff;
+    background-image: url("../Images/xv.png");
+    background-repeat: repeat;
+    background-position:center;
+}
+    /*All editing done inside the body of the page*/
+    #wrapper{
+        width: 80%;
+        height: 100%;
+        margin: .5em auto;
+        padding: 1em;
+        background-color: #808080;
+        border: .5em .5em #000;
+        border-radius: 1.5em;
+        text-align: left;
+        opacity: .8;
+        overflow: hidden;
+    }
+    	#content{
+    		float: left;
+    		width: 60%;
+    	}
+    	/*All editing done to the header*/
+    	header{
+        	width: 100%;
+        	border: .1em dashed #000;
+        	background-image: url("../Images/pizzabg.jpg");
+    		background-repeat: no-repeat;
+    		background-position: top right;
+    	}
+    	/*All editing done to the navigation*/
+    	nav{
+    		display: block;
+    	}
+    	/*Text declarations*/
+    	h1, h2, h3{
+        	padding: 0 .5em;
+        	color: #000;
+        	font-family: "lato", arial, sans-serif;
+    	}
+    	h1{
+    		font-size: 3em;
+    		text-shadow: .05em .05em #ffffff;
+    		color: #808080;
+    		box-shadow: .3em .3em .5em #000;
+    		width: 5em;
+    	}
+    	h2{
+    		font-size: 2.5em;
+    	}
+    	h3{
+    		font-size: 2em;
+    	}
+    	p{
+        	margin: .5em auto;
+        	padding: 1em;
+        	color: #000;
+        	font-family: arial, sans-serif;
+        	font-weight: normal;
+        	font-size: 1.25em;
+    	}
+    	#hp{
+    		font-weight: bold;
+    	}
+    	/*All editing done to lists*/
+    	ol{
+    		list-style-type: lower-roman;
+    	}
+    	/*All editing done to links*/
+		ul{
+    		font-style: italic;
+    	}
+    	/*All editing done to the sidebar*/
+    	aside{
+    		float: right;
+    		width: 30%;
+    		height: 100%;
+    		background: linear-gradient(#f5f5f5, #808080);
+    		
+    	}
+    	/*All editing inside table*/
+            #CompanyInfo{
+                width:100%;
+                padding:.1em;
+                margin: 1.8em 0 2em 0;
+                border:.1em dashed #000000;
+                border-collapse: collapse;
+                font-family: "Lato", sans-serif;
+            }
+            #CompanyInfo td{
+                font-size:1.25em;
+                text-align: left;
+                padding: .5em 0 .4em 0;
+                background-color: #f5f5f5;
+                border: .1em solid #208c9a;
+            }
+            #CompanyInfo th{
+                font-size:1.3em;
+                background-color: #5f9ea0;
+                width: 20em;
+                text-transform: uppercase;
+                text-align: left;
+                padding: .5em 0 .4em 0;
+                border: .1em solid #208c9a;
+            }
+            #CompanyInfo tr.alt td{
+                background-color: #afeeee;
+            }
+            #CompanyInfo tr:hover td{
+                background-color: #808080;
+            }
+            /*All editing inside form*/
+            form{
+                background-color: #f5f5f5;
+                padding: 2em 2em .625em 2em;
+                width:31em;
+                margin: 0 0 2em 4em;
+
+                }
+                fieldset{
+                    line-height: 1.6em;
+                }
+                legend{
+                    font-style: italic;
+                    font-size: 1.2em;
+                    border-bottom:.1em solid #d3d3d3;
+                    border-right:.1em solid #d3d3d3;
+                    border-top:.1em solid #808080;
+                    border-left:.1em solid #808080;
+                    color: #f5f5f5;
+                    background-color: #208c9a;
+                }
+                input[type="text"]{
+                    width: 20em;
+                    border-top: .1em solid #000;
+                    border-left: .1em solid #000;
+                    border-right: .1em solid #d3d3d3;
+                    border-bottom: .1em solid #d3d3d3;
+                    padding: .2em;
+                    outline: none;
+                    margin-top: .5em;
+                }
+                    input[type="text"]:focus,
+                    input[type="text"]:hover{
+                        background-color: #d0e2f0;
+                    }
+                input[type="email"]{
+                    width: 20em;
+                    border-top: .1em solid #000;
+                    border-left: .1em solid #000;
+                    border-right: .1em solid #d3d3d3;
+                    border-bottom: .1em solid #d3d3d3;
+                    padding: .2em;
+                    outline: none;
+                    margin-top: .5em;
+                }
+                    input[type="email"]:focus,
+                    input[type="email"]:hover{
+                        background-color: #d0e2f0;
+                    }
+                input[type="submit"]{
+                    border: .1em;
+                    background-color: #208c9a;
+                    color: #f5f5f5;
+                    border-radius: .5em;
+                    padding: .5em;
+                    margin-top: 1em;
+                    width: 10em;
+                    height: 2em;
+                }
+                .title{
+                    float: left;
+                    width: 20em;
+                    clear: left;
+                    margin-top: .5em;
+                    font-size: 1.1em;
+                }
+                .submit{
+                    width: 31em;
+                    text-align: center;
+                }
+                .area{
+                    width: 12em;
+                    border-top: .1em solid #000;
+                    border-left: .1em solid #000;
+                    border-right: .1em solid #d3d3d3;
+                    border-bottom: .1em solid #d3d3d3;
+                }
+                    .area:focus,
+                    .area:hover{
+                        background-color: #d0e2f0;
+                    }
+        /*All editing done to the footer*/
+    	footer{
+    		clear: left;
+    	}
+    	a:link {
+    	    color: #208c9a;
+    	}
+    	a:visited {
+    	    color: #000;
+    	}
+    	a:hover {
+    	    color: #7AACE7;
+    	}
+    	a:active {
+    	    color: #7EFAA7;
+    	}
